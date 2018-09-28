@@ -1,0 +1,6 @@
+|FlipFlop
+D => Q.IN0
+Clock => Q.IN1
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+
+
