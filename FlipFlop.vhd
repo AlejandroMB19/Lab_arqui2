@@ -10,6 +10,7 @@ end entity;
 
 architecture FlipFlop_arch of flipFlop is
 begin
-		Q <= D xnor Clock;
-	
+	process(D,Clock)
+		Q <= ;
+	end process;
 end architecture;
